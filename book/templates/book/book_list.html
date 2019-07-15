@@ -1,0 +1,43 @@
+{% extends 'book/base.html' %}
+
+{% block content %}
+    <h1 class="my-4">Home -
+        <small>Book List</small>
+    </h1>
+    <div class="row">
+    {% if object_list %}
+        <div class="col-12" style="overflow-x: scroll">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Publisher</th>
+                    <th scope="col">View</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for book in object_list %}
+                <tr>
+                    <td>{{ book.name }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.publisher }}</td>
+                    <td><a href="{% url "book_view" book.id %}"><button type="button" class="btn btn-outline-primary btn-sm">View</button></a></td>
+                    <td><a href="{% url "book_edit" book.id %}"><button type="button" class="btn btn-outline-secondary btn-sm">Edit</button></a></td>
+                    <td><a href="{% url "book_delete" book.id %}"><button type="button" class="btn btn-outline-danger btn-sm">Delete</button></a></td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+        </div>
+    {% else %}
+    <div class="col-12">
+        <div class="alert alert-warning" role="alert">
+            There is no book, yet. But if you want, you can add from <a class="badge badge-info" href="{% url "book_new" %}"><strong>here.</strong></a>
+        </div>
+    </div>
+    {% endif %}
+    </div>
+{% endblock %}
