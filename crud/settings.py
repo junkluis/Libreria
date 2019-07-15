@@ -38,8 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Adding book app into the project
-    'book'
+    'book',
+    'django_jenkins'
 ]
+
+JENKINS_TASKS = (
+    'django_jenkins.tasks.run_pep8',
+    'django_jenkins.tasks.run_pyflakes'
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
