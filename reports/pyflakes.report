@@ -3,3 +3,4 @@
 ..\..\..\..\..\..\Program Files (x86)\Python37-32\lib\site-packages\django\contrib\messages\__init__.py:2: [E] PYFLAKES:'from django.contrib.messages.constants import *' used; unable to detect undefined names
 ..\..\..\..\..\..\Program Files (x86)\Python37-32\lib\site-packages\django\contrib\messages\__init__.py:2: [E] PYFLAKES:'django.contrib.messages.constants.*' imported but unused
 book\admin.py:4: [E] PYFLAKES:'django.contrib.admin' imported but unused
+book\tests.py:4: [E] PYFLAKES:'.views' imported but unused

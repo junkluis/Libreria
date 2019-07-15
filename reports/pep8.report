@@ -791,54 +791,46 @@
 book\forms.py:6:1: E302 expected 2 blank lines, found 1
 book\forms.py:28:1: W391 blank line at end of file
 book\models.py:20:1: W391 blank line at end of file
-book\tests.py:4:1: E302 expected 2 blank lines, found 1
-book\tests.py:7:1: W191 indentation contains tabs
-book\tests.py:7:1: E101 indentation contains mixed spaces and tabs
-book\tests.py:8:1: W191 indentation contains tabs
-book\tests.py:7:8: E128 continuation line under-indented for visual indent
-book\tests.py:8:8: E128 continuation line under-indented for visual indent
-book\tests.py:8:26: E202 whitespace before ')'
-book\tests.py:6:34: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:7:15: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:8:18: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:10:1: E101 indentation contains mixed spaces and tabs
-book\tests.py:11:1: W191 indentation contains tabs
-book\tests.py:11:1: E101 indentation contains mixed spaces and tabs
-book\tests.py:12:1: W191 indentation contains tabs
-book\tests.py:11:8: E128 continuation line under-indented for visual indent
-book\tests.py:12:8: E128 continuation line under-indented for visual indent
-book\tests.py:12:26: E202 whitespace before ')'
-book\tests.py:10:34: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:11:15: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:12:18: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:16:1: E101 indentation contains mixed spaces and tabs
-book\tests.py:16:5: E303 too many blank lines (3)
-book\tests.py:18:1: W191 indentation contains tabs
+book\tests.py:6:1: E302 expected 2 blank lines, found 1
+book\tests.py:9:1: W191 indentation contains tabs
+book\tests.py:9:1: E101 indentation contains mixed spaces and tabs
+book\tests.py:10:1: W191 indentation contains tabs
+book\tests.py:9:8: E128 continuation line under-indented for visual indent
+book\tests.py:10:8: E128 continuation line under-indented for visual indent
+book\tests.py:10:26: E202 whitespace before ')'
+book\tests.py:8:34: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:9:15: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:10:18: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:12:1: E101 indentation contains mixed spaces and tabs
+book\tests.py:13:1: W191 indentation contains tabs
+book\tests.py:13:1: E101 indentation contains mixed spaces and tabs
+book\tests.py:14:1: W191 indentation contains tabs
+book\tests.py:13:8: E128 continuation line under-indented for visual indent
+book\tests.py:14:8: E128 continuation line under-indented for visual indent
+book\tests.py:14:26: E202 whitespace before ')'
+book\tests.py:12:34: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:13:15: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:14:18: E251 unexpected spaces around keyword / parameter equals
 book\tests.py:18:1: E101 indentation contains mixed spaces and tabs
-book\tests.py:19:1: W191 indentation contains tabs
-book\tests.py:18:10: E128 continuation line under-indented for visual indent
-book\tests.py:19:10: E128 continuation line under-indented for visual indent
-book\tests.py:17:43: E201 whitespace after '('
-book\tests.py:19:28: E202 whitespace before ')'
-book\tests.py:17:49: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:18:17: E251 unexpected spaces around keyword / parameter equals
-book\tests.py:19:20: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:18:5: E303 too many blank lines (3)
+book\tests.py:20:1: W191 indentation contains tabs
 book\tests.py:20:1: E101 indentation contains mixed spaces and tabs
-book\tests.py:25:5: E303 too many blank lines (2)
-book\tests.py:26:5: W191 indentation contains tabs
-book\tests.py:26:5: E101 indentation contains mixed spaces and tabs
-book\tests.py:29:5: E303 too many blank lines (2)
-book\tests.py:30:5: W191 indentation contains tabs
-book\tests.py:30:5: E101 indentation contains mixed spaces and tabs
-book\tests.py:33:5: E303 too many blank lines (2)
-book\tests.py:34:1: W391 blank line at end of file
+book\tests.py:21:1: W191 indentation contains tabs
+book\tests.py:20:10: E128 continuation line under-indented for visual indent
+book\tests.py:21:10: E128 continuation line under-indented for visual indent
+book\tests.py:19:43: E201 whitespace after '('
+book\tests.py:21:28: E202 whitespace before ')'
+book\tests.py:19:49: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:20:17: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:21:20: E251 unexpected spaces around keyword / parameter equals
+book\tests.py:22:1: E101 indentation contains mixed spaces and tabs
+book\tests.py:30:1: E303 too many blank lines (6)
+book\tests.py:36:1: W391 blank line at end of file
 book\urls.py:12:1: W391 blank line at end of file
-book\views.py:20:1: E302 expected 2 blank lines, found 1
-book\views.py:24:1: E302 expected 2 blank lines, found 1
-book\views.py:28:1: E302 expected 2 blank lines, found 1
-book\views.py:35:1: E302 expected 2 blank lines, found 1
-book\views.py:42:1: E302 expected 2 blank lines, found 1
-book\views.py:45:1: W391 blank line at end of file
+book\views.py:21:1: W293 blank line contains whitespace
+book\views.py:28:1: W293 blank line contains whitespace
+book\views.py:34:1: W293 blank line contains whitespace
+book\views.py:35:1: W391 blank line at end of file
 book\migrations\0001_initial.py:19:80: E501 line too long (114 > 79 characters)
 ..\..\..\..\..\..\Program Files (x86)\Python37-32\lib\site-packages\django_jenkins\runner.py:64:80: E501 line too long (85 > 79 characters)
 ..\..\..\..\..\..\Program Files (x86)\Python37-32\lib\site-packages\django_jenkins\runner.py:69:80: E501 line too long (84 > 79 characters)

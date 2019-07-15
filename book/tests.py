@@ -23,20 +23,7 @@ class BookModelTestCase(TestCase):
         self.assertEqual(str(nuevo_libro), "Mi nuevo libro")
 
 
-    def test_buscar_un_libro(self):
-    	self.assertEqual(1,0)
 
-
-    def test_buscar_libro_por_autor(self):
-    	self.assertEqual(1,0)
-
-
-    def test_editar_libro(self):
-    	self.assertEqual(1,0)
-
-
-    def test_obtener_ruta_aboluta(self):
-    	self.assertEqual(1,0)
 
 
 
